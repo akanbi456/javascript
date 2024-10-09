@@ -2,17 +2,22 @@
 
 
 
-let username = prompt("what's your name?")
-let age =prompt('how old are you?')
-let gender = prompt('what your sex')
-let sch =prompt('which school do you attend')
+let username = prompt("what's your name?");
+let age =prompt("how old are you?");
+let gender = prompt('what your sex');
+let sch =prompt('which school do you attend');
 
 
-document.getElementById('heading').innerHTML=('your name is '+ username +'i am ' + age + 'i am a '+ gender +'I attended ' + sch)
+console.log('I am ' + username + '. ' + age + 'years of age, A ' + gender + ' and schooled at ' + sch);
+// console.log(age);
+// console.log(gender);
+// console.log(sch);
+
+document.getElementById('header').innerHTML= ('I am ' + username + '. ' + age + 'years of age, A ' + gender + ' and schooled at ' + sch );
 
 
 
 
-let input =document.querySelector('input')
+// let input =document.querySelector('input')
 
-console.log(input.value)
+// console.log(input.value)
