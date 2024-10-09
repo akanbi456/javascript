@@ -13,7 +13,7 @@ console.log('I am ' + username + '. ' + age + 'years of age, A ' + gender + ' an
 // console.log(gender);
 // console.log(sch);
 
-document.getElementById('header').innerHTML= ('I am ' + username + '. ' + age + 'years of age, A ' + gender + ' and schooled at ' + sch );
+document.getElementById('header').innerHTML= ('I am ' + username + '. ' + age + 'years of age, A ' + gender + ' and I schooled at ' + sch );
 
 
 
