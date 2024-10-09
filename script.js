@@ -8,7 +8,7 @@ let gender = prompt('what your sex');
 let sch =prompt('which school do you attend');
 
 
-console.log('I am ' + username + '. ' + age + 'years of age, A ' + gender + ' and schooled at ' + sch);
+console.log('I am ' + username + '. ' + age + 'years of age, A ' + gender + ' and  I schooled at ' + sch);
 // console.log(age);
 // console.log(gender);
 // console.log(sch);
